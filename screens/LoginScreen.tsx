@@ -30,7 +30,7 @@ export default function LoginScreen({ navigation }: any) {
     if (email === "teste@teste.com" && senha === "123") {
       navigation.navigate("Home");
     } else {
-      Alert.alert("Erro", "Usuário não encontrado");
+      Alert.alert("Erro", "Usuário não ");
     }
   }
 
