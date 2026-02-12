@@ -100,6 +100,6 @@ const styles = StyleSheet.create({
     padding: 12
   },
   mostrar: {
-    fontSize: 10
+    fontSize: 19
   }
 });
