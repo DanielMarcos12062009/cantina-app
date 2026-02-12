@@ -28,6 +28,8 @@ Alert.alert('Usuario nao encontrado')
       <TextInput placeholder="Informe sua senha" 
       onChangeText={(e) => setSenha(e)}></TextInput>
       <Button title="Confirmar" onPress={handleLogin}></Button>
+      <Button title="Apertar" onPress={handleLogin}></Button>
+
     </View>
   );
 }
