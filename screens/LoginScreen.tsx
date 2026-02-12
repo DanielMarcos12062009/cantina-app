@@ -17,7 +17,7 @@ export default function LoginScreen({ navigation }: any) {
   function handleLogin() {
     // validação básica
     if (!email.includes("@")) {
-      Alert.alert("Erro", "Digite um email válido");
+      Alert.alert("Sucesso!", "Pronto!");
       return;
     }
 
