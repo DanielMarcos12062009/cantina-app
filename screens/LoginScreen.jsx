@@ -17,7 +17,7 @@ export default function LoginScreen({ navigation }: any) {
   function handleLogin() {
     // validação básica
     if (!email.includes("@")) {
-      Alert.alert("Sucesso!", "Voce acessou a cantina DOS PRATOS ASIATICOS");
+      Alert.alert("Erro", "Digite um email válido");
       return;
     }
 
@@ -30,13 +30,13 @@ export default function LoginScreen({ navigation }: any) {
     if (email === "teste@teste.com" && senha === "123") {
       navigation.navigate("Home");
     } else {
-      Alert.alert("Erro", "Usuário não ");
+      Alert.alert("Erro", "Usuário não encontrado");
     }
   }
 
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>✨ Login Idol ✨</Text>
+      <Text style={styles.titulo}>✨ cantina Idol ✨</Text>
 
       <TextInput
         placeholder="Digite seu email"
