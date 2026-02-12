@@ -17,7 +17,7 @@ export default function LoginScreen({ navigation }: any) {
   function handleLogin() {
     // validação básica
     if (!email.includes("@")) {
-      Alert.alert("Sucesso!", "Pronto!");
+      Alert.alert("Sucesso!", "Voce acessou a cantina DOS PRATOS ASIATICOS");
       return;
     }
 
